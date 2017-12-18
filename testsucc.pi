@@ -1,0 +1,9 @@
+calc(N,M), integer(N) =>
+    bp.succ(N,M).
+  
+main =>
+   N = 283,
+   calc(N,M),
+   writeln(M).
+
+    
